@@ -7,6 +7,7 @@ import { MyWorkComponent } from './my-work/my-work.component';
 import { AppointmentComponent } from './appointment/appointment.component';
 import { NavSectionComponent } from './nav-section/nav-section.component';
 import { ProfileBlurbComponent } from './profile-blurb/profile-blurb.component';
+import { SiteHeaderSectionComponent } from './site-header-section/site-header-section.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProfileBlurbComponent } from './profile-blurb/profile-blurb.component';
     MyWorkComponent,
     AppointmentComponent,
     NavSectionComponent,
-    ProfileBlurbComponent
+    ProfileBlurbComponent,
+    SiteHeaderSectionComponent
   ],
   imports: [
     BrowserModule
