@@ -15,6 +15,7 @@ section {
         display: inline-block;
         position: relative;
         text-align: left;
+        margin-left: 7rem;
 
     }
 }
