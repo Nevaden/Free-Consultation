@@ -6,16 +6,59 @@ section {
     text-align: center;
     margin-top:100px;
     position: relative;
+
+}
+
+@media screen and (min-width: 1240) {
+    .section { 
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+        position: relative;
+        margin-left: 165px;
+        margin-right: 165px;
+        
+    }
 }
 
 .imgAmy {
     width: 300px;
     height: 300px;
-    left: 38px;
-    top: 1602px;
+    left: 34px;
     border-radius: 50%;
     background: #61C4B7;
-    
+    display: block;
+    position: relative;
+    text-align: center;
+}
+@media screen and (min-width: 900px){
+    .imgAmy{
+        display:inline-block;
+        position: absolute;
+        width: 445px;
+        height: 445px;
+        left: 165px;
+    }
+}
+
+.blurbText{
+    display: block;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+@media screen and (min-width: 900px){
+    .blurbText{
+        display: inline-block;
+        position: absolute;
+        text-align: left;
+        width: 540px;
+        height: 306px;
+        left: 735px;
+    }
 }
 
 h3{
@@ -28,13 +71,31 @@ h3{
     color: #030303;
 }
 
+
+@media screen and (min-width: 900px){
+    h3{
+        display: inline-flex;
+        height: 100px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 100px/2 - 103px);
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        text-align: left;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #030303;
+    }
+}
+
 p {
 
     height: 104px;
     left: 0%;
     right: 0%;
     top: calc(50% - 104px/2 + 11px);
-    
+    text-align: left;
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 500;
@@ -49,8 +110,31 @@ p {
     color: #7A746E;
 }
 
+@media screen and (min-width: 900px){
+    p{
+        height: 84px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 84px/2 + 23px);   
+        /* Body (M) */
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        /* or 156% */
+        
+        
+        /* Medium Brown */
+        
+        color: #7A746E;
+    }
+}
+
+
 .consultation-button {
-    margin-top: 24px;
+    margin-top: 18px;
     color: #FFF7F0;
     width: 176px;
     height: 44px;
@@ -59,8 +143,14 @@ p {
     border: none;
     background: #EB7565;
     border-radius: 28px;
+
 }
 
+@media screen and (min-width: 900px){
+    .consultation-button{
+
+    }
+}
 .consultation-button:hover {
     background-color: #F6A560;
 }
