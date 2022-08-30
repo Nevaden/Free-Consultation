@@ -1,0 +1,66 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+section {
+    text-align: center;
+    margin-top:100px;
+    position: relative;
+}
+
+.imgAmy {
+    width: 300px;
+    height: 300px;
+    left: 38px;
+    top: 1602px;
+    border-radius: 50%;
+    background: #61C4B7;
+    
+}
+
+h3{
+    margin-top: 40px;
+    height: 66px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #030303;
+}
+
+p {
+
+    height: 104px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 104px/2 + 11px);
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    text-align: center;
+    
+    /* Medium Brown */
+    
+    color: #7A746E;
+}
+
+.consultation-button {
+    margin-top: 24px;
+    color: #FFF7F0;
+    width: 176px;
+    height: 44px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: #EB7565;
+    border-radius: 28px;
+}
+
+.consultation-button:hover {
+    background-color: #F6A560;
+}
