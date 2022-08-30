@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class MyWorkComponent implements OnInit {
 
-  carouselImages = [
+  public carouselImages = [
   'assets/image-slide-1.jpg',
   'assets/image-slide-2.jpg',
   'assets/image-slide-3.jpg',
@@ -20,6 +20,6 @@ export class MyWorkComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  
+
 
 }

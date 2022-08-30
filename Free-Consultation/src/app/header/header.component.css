@@ -1,0 +1,40 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+.logo {
+    height: 48px;
+    width: 48px;
+}
+
+.header { 
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+@media screen and (min-width: 600px) {
+    .header { 
+        margin-left: 165px;
+        margin-right: 164px;
+    }
+}
+
+
+
+
+.consultation-button {
+    background: #030303;
+    border-radius: 28px;
+    color: #FFF7F0;
+    width: 176px;
+    height: 44px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+}
+.consultation-button:hover{
+    background-color: #755CDE;
+}

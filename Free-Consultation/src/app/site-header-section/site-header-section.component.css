@@ -1,0 +1,31 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 45px;
+    font-style: normal;
+}
+
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+    color: #7A746E;
+    margin: 29px;
+}
+
+div {
+    margin-top: 32px;
+    width: 343px;
+    height: 210px;
+    left: 16px;
+    top: 96px;
+}
