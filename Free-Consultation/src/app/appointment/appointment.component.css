@@ -12,7 +12,7 @@ section {
     padding: 49px;
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 900px) {
     section {
         display: flex;
         justify-content: space-around;
@@ -22,7 +22,7 @@ section {
         padding: 2rem;
         margin: 0 auto 2rem;
         text-align: center;
-        max-width: 1110px;
+        width: 1110px;
     }
 }
 
@@ -30,8 +30,14 @@ section {
     text-align: center;
 }
 
-@media screen and (min-width: 1440px) {
-
+@media screen and (min-width: 1140px) {
+    .blurb{
+        display: block;
+        padding: 2rem;
+        text-align: center;
+        margin-right: auto;
+        width: 540px;
+    }
 }
 
 h3 {
@@ -44,6 +50,16 @@ h3 {
     border-top: 50px ;
 }
 @media screen and (min-width: 1140px) {
+    h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+
+        text-align: left;
+
+        color: #FFF7F0;
+    }
 }
 
 p {
@@ -56,6 +72,14 @@ p {
 }
 
 @media screen and (min-width: 1140px) {
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        color: #FFF7F0;
+    }
 }
 
 .consultationButton {
@@ -70,6 +94,9 @@ p {
 }
 
 @media screen and (min-width: 1140px) {
+    .consultationButton {
+    margin-right: 4rem;
+    }
 }
 
 
