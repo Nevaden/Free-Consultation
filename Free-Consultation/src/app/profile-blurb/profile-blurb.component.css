@@ -9,17 +9,17 @@ section {
 
 }
 
-@media screen and (min-width: 1240) {
-    .section { 
+
+.imgContainer {
+    text-align: left;
+    display: flex;
+}
+@media screen and (min-width: 900px){
+    .imgContainer {
         display: inline-block;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem;
-        text-align: center;
         position: relative;
-        margin-left: 165px;
-        margin-right: 165px;
-        
+        text-align: left;
+
     }
 }
 
@@ -36,10 +36,12 @@ section {
 @media screen and (min-width: 900px){
     .imgAmy{
         display:inline-block;
-        position: absolute;
+        position: relative;
         width: 445px;
         height: 445px;
-        left: 165px;
+        left: auto;
+        right: 17rem;
+        
     }
 }
 
@@ -52,12 +54,15 @@ section {
 
 @media screen and (min-width: 900px){
     .blurbText{
-        display: inline-block;
-        position: absolute;
+        display:inline-block;
+        position: relative;
         text-align: left;
         width: 540px;
-        height: 306px;
-        left: 735px;
+        height: 240px;
+        margin-left: 0rem;
+        margin-bottom: 14rem;
+        margin-top: 0;
+ 
     }
 }
 
@@ -76,13 +81,7 @@ h3{
     h3{
         display: inline-flex;
         height: 100px;
-        left: 0%;
-        right: 0%;
-        top: calc(50% - 100px/2 - 103px);
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
         text-align: left;
-        font-weight: 700;
         font-size: 40px;
         line-height: 50px;
         color: #030303;
@@ -101,33 +100,17 @@ p {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
-    
     text-align: center;
-    
-    /* Medium Brown */
-    
     color: #7A746E;
 }
 
 @media screen and (min-width: 900px){
     p{
-        height: 84px;
-        left: 0%;
-        right: 0%;
-        top: calc(50% - 84px/2 + 23px);   
-        /* Body (M) */
-        font-family: 'Plus Jakarta Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
         line-height: 28px;
         text-align: left;
-        /* or 156% */
-        
-        
-        /* Medium Brown */
-        
         color: #7A746E;
     }
 }
@@ -146,11 +129,7 @@ p {
 
 }
 
-@media screen and (min-width: 900px){
-    .consultation-button{
 
-    }
-}
 .consultation-button:hover {
     background-color: #F6A560;
 }
