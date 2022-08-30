@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
 
 .main-nav{
     display: grid;
@@ -28,6 +30,18 @@
     }
 }
 
+.gridImage {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 16px;
+}
+
+.gridItem{
+    border-radius: 10px;
+    position: relative;
+}
+
 .graphicDesign {
     grid-area: graphicDesign;
     background-color: #755CDE;
@@ -52,4 +66,14 @@
 .motionGraphics {
     grid-area: motionGraphics;
     background-color: #552049;
+}
+
+p {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
 }
