@@ -18,6 +18,11 @@ export class MyWorkComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    var rightarrow = document.getElementById("testing")
+          rightarrow?.addEventListener("click", () =>{
+            alert("HOLY SHIT")
+          })
+
   }
 
 
