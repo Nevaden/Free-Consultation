@@ -1,4 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+
+interface carouselImages {
+  imageSrc: string;
+  imageAlt: string;
+}
 
 @Component({
   selector: 'app-my-work',
@@ -8,23 +14,32 @@ import { Component, OnInit } from '@angular/core';
 
 export class MyWorkComponent implements OnInit {
 
-  public carouselImages = [
-  'https://i.imgur.com/HGYW7Yo.jpg',
-  'https://i.imgur.com/vr5isjY.jpg',
-  'https://i.imgur.com/iaes63R.jpg',
-  'https://i.imgur.com/RfiCtzC.jpg',
-  'https://i.imgur.com/faNZcDd.jpg'
-]
+  @Input() images: carouselImages[] = []
+  @Input() controls = true;
+  selectedIndex = 0;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
 
-    const rightArrow = document.getElementById("left")
-    const leftArrow = document.getElementById("right")
-    
+    onPrevClick(): void {
+      if(this.selectedIndex === 0) {
+        this.selectedIndex = this.images.length - 1;
+      } else {
+        this.selectedIndex--;
+      }
+    }
 
+    onNextClick(): void {
+      if(this.selectedIndex === this.images.length - 1) {
+        this.selectedIndex =  0;
+      } else {
+        this.selectedIndex++;
+      }
+    }
   }
 
 
 
-}
+
