@@ -15,7 +15,6 @@ interface carouselImages {
 export class MyWorkComponent implements OnInit {
 
   @Input() images: carouselImages[] = []
-  @Input() controls = true;
   selectedIndex = 0;
 
   constructor() { }
