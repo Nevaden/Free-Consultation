@@ -21,8 +21,9 @@ section {
         border-radius: 10px;
         padding: 2rem;
         margin: 0 auto 2rem;
+        margin-bottom: 5rem;
         text-align: center;
-        width: 1110px;
+        width: 1310px;
     }
 }
 
@@ -34,6 +35,7 @@ section {
     .blurb{
         display: block;
         padding: 2rem;
+        font-size: 18px;
         text-align: center;
         margin-right: auto;
         width: 540px;
@@ -96,6 +98,8 @@ p {
 @media screen and (min-width: 1140px) {
     .consultationButton {
     margin-right: 4rem;
+    width: 228px;
+    height: 56px;
     }
 }
 

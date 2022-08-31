@@ -35,10 +35,11 @@ h4 {
     border-radius: 50%;
     height: 64px;
     width: 64px;
-
-/* Black */
-
-background: #030303;
+    background: #030303;
+    cursor: pointer;
+}
+.arrow-button:hover {
+    background-color: #755CDE;
 }
 
 .carousel-image{

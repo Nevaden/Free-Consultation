@@ -1,103 +1,18 @@
 <section class="carousel">
     <h4>My Work</h4>
-    <!-- <div *ngFor="let image of carouselImages">
+    <div *ngFor="let image of carouselImages">
         <img class="carousel-image" src="{{image}}" alt="carosel images">
-    </div> -->
+    </div>
 
-    <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
-          <div class="swiper-slide">Slide 10</div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
     
-    
-    
-      <!-- Initialize Swiper -->
-      <script type="module">
-        import Swiper from 'swiper/swiper-bundle.esm.js';
-        import 'swiper/swiper-bundle.css';
-        var swiper = new Swiper('.swiper', {
-          slidesPerView: 1,
-          spaceBetween: 30,
-          loop: true,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-        });
-      </script>
-    
-      <!-- Demo styles -->
-      <style>
-        html,
-        body {
-          position: relative;
-          height: 100%;
-        }
-    
-        body {
-          background: #eee;
-          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-          font-size: 14px;
-          color: #000;
-          margin: 0;
-          padding: 0;
-        }
-    
-        .swiper {
-          width: 100%;
-          height: 100%;
-          margin-left: auto;
-          margin-right: auto;
-        }
-    
-        .swiper-slide {
-          text-align: center;
-          font-size: 18px;
-          background: #fff;
-    
-          /* Center slide text vertically */
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: -webkit-flex;
-          display: flex;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          -webkit-justify-content: center;
-          justify-content: center;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          -webkit-align-items: center;
-          align-items: center;
-        }
-      </style>
-
 
     
     <div class="arrow-container">
-        <button class="arrow-button">
+        <button class="arrow-button left">
             <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="#FFF" d="M8 0 0 8l8 8 1.687-1.687-5.121-5.12h10.241V6.807H4.566l5.121-5.12z"/></svg>
             <!-- <img class="carousel-arrow" src="../../assets/icon-arrow-left.svg" alt="left arrow"> -->
         </button>
-        <button class="arrow-button">
+        <button class="arrow-button right">
             <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="#FFF" d="m6.808 16 8-8-8-8-1.687 1.687 5.121 5.12H.001v2.386h10.241l-5.121 5.12z"/></svg>
             <!-- <img class="carousel-arrow" id="testing" src="../../assets/icon-arrow-right.svg" alt="right arrow"> -->
         </button>      

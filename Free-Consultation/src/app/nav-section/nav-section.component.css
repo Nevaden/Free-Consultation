@@ -4,10 +4,9 @@
     grid-auto-rows: 200px;
     grid-gap: 20px;
     gap: 20px;
-    margin-top: 32px;
+    margin-top: 115px;
     margin-bottom: 100px;
-    margin-left: 5rem;
-    margin-right: 5rem;
+
     grid-template-areas:
     "graphicDesign graphicDesign"
     "graphicDesign graphicDesign"
@@ -17,10 +16,13 @@
     "motionGraphics motionGraphics";
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1140px) {
     .main-nav { 
         grid-template-columns: repeat(6,1fr);
+        margin-top: 15px;
         padding: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
         margin-bottom: 2rem;
         grid-template-areas:
         "graphicDesign graphicDesign uiux apps photography photography"

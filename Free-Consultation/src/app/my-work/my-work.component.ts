@@ -9,19 +9,19 @@ import { Component, OnInit } from '@angular/core';
 export class MyWorkComponent implements OnInit {
 
   public carouselImages = [
-  'assets/image-slide-1.jpg',
-  'assets/image-slide-2.jpg',
-  'assets/image-slide-3.jpg',
-  'assets/image-slide-4.jpg',
-  'assets/image-slide-5.jpg'
+  'https://i.imgur.com/HGYW7Yo.jpg',
+  'https://i.imgur.com/vr5isjY.jpg',
+  'https://i.imgur.com/iaes63R.jpg',
+  'https://i.imgur.com/RfiCtzC.jpg',
+  'https://i.imgur.com/faNZcDd.jpg'
 ]
   constructor() { }
 
   ngOnInit(): void {
-    var rightarrow = document.getElementById("testing")
-          rightarrow?.addEventListener("click", () =>{
-            alert("HOLY SHIT")
-          })
+
+    const rightArrow = document.getElementById("left")
+    const leftArrow = document.getElementById("right")
+    
 
   }
 
